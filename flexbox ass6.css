@@ -1,0 +1,52 @@
+body{
+     background-color: #202124;
+     justify-content: center;
+     display: flex;
+}
+
+.container{
+     max-width: 1200px;
+     width: 100%;
+     width: 90vh;
+     flex-direction: column;
+     justify-content: center;
+     text-align: center;
+     margin: 0px 25%;
+     display: flex;
+}
+.google-text{
+     width: 70%;
+     margin-bottom: 40px;
+}
+
+.serach-bar{
+     width: 100%;
+     border: 1px solid #6e7277;
+     border-radius: 50px;
+     height: 45px;
+     display: flex;
+
+     justify-content: center;
+     padding: 5px 20px ;
+     gap: 10px;
+}
+
+input{
+     width: 80%;
+     height: 100%;
+     background-color: transparent;
+     border: 0;
+     color: #fff;
+     outline: none;
+     text-align: center;
+     font-size: 20px;
+}
+
+.symbol{
+     color: #6e7277;
+}
+
+.sub-image{
+     width: 50px;
+}
+
